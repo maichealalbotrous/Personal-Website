@@ -1,0 +1,62 @@
+.Content_section{
+
+    padding: 20px;
+   background-color: black;
+   border-radius: 60px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 90px;
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+}
+
+.Content_section h1{
+    color: white;
+    filter: drop-shadow(0 0 20px white);
+    font-weight: bold;
+}
+
+.Content_section input{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    outline: none;
+    box-shadow: 0 0 10px white;
+    width: 45%;
+    background-color: #636262;
+    border: 1px solid white;
+
+}
+.Content_section input::placeholder{
+color: white;
+font-weight: bold;
+
+}
+
+.Content_section input.Letter{
+    padding: 30px;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.Content_section button{
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+background-color: white;
+border: 1px solid black;
+color: black;
+box-shadow:  0 0 10px white;
+
+}
+
+.Content_section button:hover{
+transform: scale(1.1);
+transition: 0.2s;
+margin-left: 10px;
+background-color: black;
+color: white;
+border: 2px solid white;
+}
+

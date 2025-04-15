@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Projects{
+position: relative;
+z-index: 1002;
+color: white;
+font-weight: bold;
+text-align: center;
+user-select: none;
+overflow: hidden;
+
+}
+
+.Projects h2{
+    font-size: 3rem;
+    filter: drop-shadow( 0 0 10px white);
+
+}
+
+.Projects p{
+    letter-spacing: 2px;
+    max-width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+    margin-top: 2rem;
+   margin-bottom: 2rem;
+   padding: 1rem;
+}
+
+
+.Projects .Nav{
+margin-bottom: 4rem;
+padding: 1rem;
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+

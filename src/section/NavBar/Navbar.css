@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav.navbar{
+    background-image: url(/public/img/banner-bg.png);
+    width: 100%;
+}
+
+nav .navbar-brand{
+ filter:drop-shadow( 0 0 10px white);
+}
+
+nav.navbar .navbar-nav .nav-item .nav-link {
+    color: #6e6d6d;
+   text-decoration: none;
+   font-size:x-large;
+}
+
+nav.navbar .navbar-nav .nav-item .nav-link:hover{
+ color: white;
+}
+
+nav .navbar-text button{
+    padding:0.5rem;
+    border-radius: 1.2rem;
+    margin: 1rem;
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    background-color: #121212;
+
+}
+
+nav .navbar-text button:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.2s;
+    box-shadow: 0 0 6px white;
+
+}
+
+nav .navbar-text a img {
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+border: 2px solid white;
+border-radius: 40%;
+transition: 0.2s;
+}
+
+nav .navbar-text a img:hover{
+    background-color: #222;
+    box-shadow: 0 0 5px white;
+    transform: scale(1.1);
+}
+
+
+
+nav.navbar .navbar-toggler {
+    border: 3px solid white;
+    background-color: white;
+}
+
+nav.navbar .navbar-toggler .navbar-toggler-icon{
+    
+	background-color: black;
+	height: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.Skill{
+    padding: 3rem;
+    margin-top:4.2rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius:3rem ;
+   border-top-right-radius:3rem ;
+    box-shadow:  0 0 10px white;
+    user-select: none;
+    width: 85%;
+    transform: translateY(-70px);
+position: relative;
+z-index: 1000;
+}
+
+section .main-img{
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+position: absolute;
+top: -20%;
+left: -6%;
+width: 90%;
+z-index: -100;
+}
+section .H1_Skill{
+font-size: 4rem;
+}
+section p{
+    color: #a1a1a1;
+    margin: 2rem;
+}
+.showTyping {
+overflow: hidden;
+border-right: 2px solid white;
+white-space:nowrap;
+animation: typing 4s 1 linear;
+}
+
